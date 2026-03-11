@@ -1,0 +1,9 @@
+/* 全局样式文件 - Tailwind CSS 的三个基础层 */
+@tailwind base;       /* 重置浏览器默认样式 */
+@tailwind components; /* Tailwind 组件类 */
+@tailwind utilities;  /* Tailwind 工具类 */
+
+/* 自定义全局样式 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
